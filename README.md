@@ -8,6 +8,38 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
+
+## Project Preview
+
+### Desktop — Homepage
+
+![Desktop Homepage](screenshots/desktop-home.png)
+
+### Institutional Design
+
+| About Us | Areas of Activity |
+|---|---|
+| ![About Us](screenshots/desktop-about.png) | ![Areas of Activity](screenshots/desktop-services.png) |
+
+### Projects & Initiatives
+
+![Projects and Initiatives](screenshots/desktop-projects.png)
+
+### Mobile Experience
+
+<p align="center">
+  <img src="screenshots/mobile-home.png" width="280" alt="Mobile homepage" />
+  &nbsp;&nbsp;
+  <img src="screenshots/mobile-menu.png" width="280" alt="Mobile navigation menu" />
+</p>
+
+<p align="center">
+  <i>Responsive layout and mobile navigation.</i>
+</p>
+
+---
+
+
 ## Overview
 
 An institutional website prototype for ASSUMA (Associação para Sustentabilidade e Meio Ambiente), an environmental association connected to Joaquim Egídio, Campinas, Brazil. Developed as part of the 2026/2 Integrated Multidisciplinary Project (PIM) in Systems Analysis and Development at UNIP.

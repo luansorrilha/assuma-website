@@ -8,6 +8,38 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
+
+## Apresentação do Projeto
+
+### Desktop — Página Inicial
+
+![Página Inicial](screenshots/desktop-home.png)
+
+### Design Institucional
+
+| Quem Somos | Frentes de Atuação |
+|---|---|
+| ![Quem Somos](screenshots/desktop-about.png) | ![Frentes de Atuação](screenshots/desktop-services.png) |
+
+### Projetos e Iniciativas
+
+![Projetos e Iniciativas](screenshots/desktop-projects.png)
+
+### Experiência Mobile
+
+<p align="center">
+  <img src="screenshots/mobile-home.png" width="280" alt="Página inicial mobile" />
+  &nbsp;&nbsp;
+  <img src="screenshots/mobile-menu.png" width="280" alt="Menu de navegação mobile" />
+</p>
+
+<p align="center">
+  <i>Layout responsivo e navegação mobile.</i>
+</p>
+
+---
+
+
 ## Visão geral
 
 Protótipo de site institucional para a ASSUMA (Associação para Sustentabilidade e Meio Ambiente), associação ambiental vinculada a Joaquim Egídio, Campinas/SP. Desenvolvido no contexto do Projeto Integrado Multidisciplinar (PIM) 2026/2 de Análise e Desenvolvimento de Sistemas da UNIP.
