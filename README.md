@@ -48,11 +48,12 @@ The project explores how responsive design, accessible interfaces and clear info
 
 ## Features
 
+
 - Responsive layout for desktop, tablet and mobile devices.
 - Semantic HTML, keyboard-friendly navigation and reduced-motion support.
 - Interactive mobile menu, active-section highlighting and scroll-based animations using IntersectionObserver.
 - Institutional content, environmental initiatives, photo gallery and participation options.
-- Client-side contact form validation and a pre-filled WhatsApp message. No automatic submission, backend or database.
+- Client-side contact form validation and simulated submission. No actual messages are sent or stored.
 
 ## Technologies
 

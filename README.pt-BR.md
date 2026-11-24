@@ -52,7 +52,7 @@ O projeto explora como design responsivo, interfaces acessíveis e uma arquitetu
 - HTML semântico, navegação por teclado e suporte à preferência por movimento reduzido.
 - Menu mobile interativo, destaque da seção ativa e animações de rolagem com IntersectionObserver.
 - Conteúdo institucional, iniciativas ambientais, galeria e formas de participação.
-- Validação do formulário no navegador e abertura de mensagem pré-preenchida no WhatsApp. Não há envio automático, backend ou banco de dados.
+- Validação do formulário no navegador e envio simulado. Nenhuma mensagem real é enviada ou armazenada.
 
 ## Tecnologias
 
