@@ -62,14 +62,13 @@ document.querySelectorAll('[data-subject]').forEach(link => {
   });
 });
 
-/* Envio transparente: abre o WhatsApp com a mensagem, sem banco de dados nem confirmação falsa. */
+/* Simulação local: valida os campos sem enviar ou armazenar dados. */
 const form = document.querySelector('#contact-form');
 form?.addEventListener('submit', event => {
   event.preventDefault();
   const status = document.querySelector('#form-status');
   const name = form.querySelector('#nome').value.trim();
   const email = form.querySelector('#email').value.trim();
-  const phone = form.querySelector('#telefone').value.trim();
   const subject = form.querySelector('#assunto').value;
   const message = form.querySelector('#mensagem').value.trim();
   const agreed = form.querySelector('#concordo').checked;
@@ -81,17 +80,7 @@ form?.addEventListener('submit', event => {
     form.querySelector(!name ? '#nome' : !validEmail ? '#email' : !subject ? '#assunto' : !message ? '#mensagem' : '#concordo').focus();
     return;
   }
-  const contents = [`Olá, ASSUMA! Vim pelo site e gostaria de entrar em contato.`, ``, `*Nome:* ${name}`, `*E-mail:* ${email}`, phone ? `*Telefone:* ${phone}` : '', `*Assunto:* ${subject}`, ``, `*Mensagem:*`, message].filter(line => line !== '').join('\n');
-  const url = 'https://wa.me/5519991653038?text=' + encodeURIComponent(contents);
-  status.textContent = 'Abrindo o WhatsApp. Revise e envie a mensagem no aplicativo para concluir.';
-  const link = document.createElement('a');
-  link.href = url;
-  link.target = '_blank';
-  link.rel = 'noopener noreferrer';
-  link.textContent = 'Se não abrir automaticamente, clique aqui para continuar no WhatsApp.';
-  link.click();
-  status.append(' ');
-  status.append(link);
+  status.textContent = 'Simulação concluída. Nenhuma mensagem foi enviada ou armazenada.';
 });
 
 /* Ano automático no rodapé. */
